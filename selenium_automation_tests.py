@@ -54,13 +54,6 @@ def selenium_automation_tests():
     # Open the reviews link in a new tab
     open_link_in_new_tab(driver, "https://magento.softwaretestingboard.com/harmony-lumaflex-trade-strength-band-kit.html#reviews")
     time.sleep(2)
-
-    click_button_by_span_text(driver, "5 stars")
-
-
-
-    
-
     
     # Close the browser
     driver.quit()
